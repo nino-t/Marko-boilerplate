@@ -1,0 +1,34 @@
+<lasso-page package-path="./browser.json"/>
+<app-main class="hold-transition skin-blue sidebar-mini"> 
+  <@body>
+    <div class="wrapper">
+      <app-header/>
+      <app-sidebar/>
+		<div class="content-wrapper">
+			<section class="content-header">
+				<h1>
+					Dashboard
+					<small>Dashboard Example</small>
+				</h1>
+				<ol class="breadcrumb">
+					<li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+					<li class="active">Here</li>
+				</ol>
+			</section>
+			<section class="content container-fluid">
+				<div class="row">
+					$ var n = 0;
+					<while(n < 6)>
+						<div class="col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="well">
+								Test ${n++}
+							</div>
+						</div>
+					</while>
+				</div>
+			</section>
+		</div>
+		<app-footer/>
+    </div>
+  </@body>
+</app-main>

@@ -1,0 +1,27 @@
+{
+  "name": "emgme",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "dev": "browser-refresh ./bin/server.js"
+  },
+  "dependencies": {
+    "@lasso/marko-taglib": "^1.0.10",
+    "axios": "^0.18.0",
+    "browser-refresh-taglib": "^1.1.0",
+    "compression": "^1.7.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "lasso": "^3.2.1",
+    "lasso-babel-transform": "^1.0.2",
+    "lasso-marko": "^2.4.2",
+    "marko": "^4.10.0",
+    "pino": "^4.17.3"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}

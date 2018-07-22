@@ -1,0 +1,12 @@
+{
+    "dependencies": [
+        "../../../../public/lte/vendors/bootstrap/dist/css/bootstrap.min.css",
+        "../../../../public/lte/vendors/font-awesome/css/font-awesome.min.css",
+        "../../../../public/lte/vendors/Ionicons/css/ionicons.min.css",        
+        "../../../../public/lte/css/AdminLTE.min.css",
+        "../../../../public/lte/css/skins/skin-blue.min.css",
+        "../../../../public/lte/vendors/jquery/dist/jquery.min.js",
+        "../../../../public/lte/vendors/bootstrap/dist/js/bootstrap.min.js",
+        "../../../../public/lte/js/adminlte.min.js"
+    ]
+}
