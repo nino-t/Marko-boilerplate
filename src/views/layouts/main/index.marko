@@ -1,0 +1,27 @@
+<lasso-page package-path="./browser.json"/>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <title>Marko.JS | ${input.pageTitle}</title>
+    <meta name="description" content="${input.pageDescription}"/>
+    <lasso-head/>
+    <include(input.head)/>
+  </head>
+  <body class="hold-transition skin-blue sidebar-mini">
+    <div class="wrapper">
+      <include('./partials/header.marko')/>
+      <include('./partials/sidebar.marko')/>
+      <div class="content-wrapper">
+        <include(input.body)/>
+      </div>
+      <include('./partials/footer.marko')/>
+    </div>
+    <include(input.tail)/>
+    <lasso-body/>
+    <browser-refresh enabled="true"/>    
+  </body>
+</html>
+ 
